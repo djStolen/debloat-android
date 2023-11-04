@@ -53,6 +53,9 @@ Once in your device's shell, you can use the following command to list installed
 For example, to list all installed packages with Facebook in their name, you'd type,
  - `pm list package | grep 'facebook'`
 
+## Info on Android Package Manager a.k.a. pm
+- https://cheatography.com/citguy/cheat-sheets/android-package-manager-pm/
+
 ## Sources
 - https://developer.android.com/studio/command-line/adb
 - https://www.xda-developers.com/disable-system-app-bloatware-android/
