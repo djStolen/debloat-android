@@ -25,6 +25,7 @@ If you want to disable this app, remove the `#` at the corresponding line locate
 > ⚠️ Research each package before running the command to disable it. Some apps have hidden dependencies.
 
 # Xiaomi
+Running all commands listed in [XiaomiCommands.txt](./XiaomiCommands.txt) will disable almost all Xiaomi apps.
 ## ⚠️ WARNING:⚠️
 1. Please don’t uninstall apps in a hurry and don’t touch the apps you don’t know about.
 2. Use your own discretion and uninstall apps that you really don’t need.
