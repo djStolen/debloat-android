@@ -157,7 +157,8 @@ pm uninstall -k --user 0 com.google.android.videos | Google Play Movies & TV
 pm uninstall -k --user 0 com.google.android.youtube | Youtube
 pm uninstall -k --user 0 com.google.ar.lens | AR Lens
 
-# MIUI Bloatwarepm uninstall -k --user 0 com.mfashiongallery.emag
+# MIUI Bloatware
+pm uninstall -k --user 0 com.mfashiongallery.emag
 pm uninstall -k --user 0 com.mi.android.globalFileexplorer | Mi File Manager
 pm uninstall -k --user 0 com.mi.android.globallauncher | Mi Launcher
 pm uninstall -k --user 0 com.mi.android.globalpersonalassistant
