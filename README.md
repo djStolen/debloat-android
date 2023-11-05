@@ -2,8 +2,34 @@
 
 This repository contains a list of [Android Debug Bridge (ADB)](https://developer.android.com/studio/command-line/adb) commands to aggressively disable apps/bloatware from Samsung Android devices that don't normally display an option to remove them.
 
-# Samsung
+# Instructions
+The following instructions assumes you are familiar with using a command-line interface.
+Further reading on ADB can be found here: https://developer.android.com/studio/command-line/adb#Enabling.
 
+1. (Recommended for stability) Backup, update, and factory reset your phone.
+2. On your phone, enable Android's "Developer Options"
+3. In "Developer Options", turn on "USB Debugging"
+4. On your computer, download [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) for your OS.
+5. Extract [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) and start a command-prompt/shell session in the extracted folder's directory.
+6. Connect your Android phone to your computer with USB debugging enabled. Verify that adb sees your device and the daemon is running with the following command
+    - `adb devices`
+    - You should see the device name listed as a "device".
+    - At this point your device should prompt you to accept USB debugging from your computer. Tap "Allow". 
+    
+    <img src="./img/adb_devices.PNG"/>
+
+7. Enter your device's shell with the following command
+    - `adb shell`
+8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
+
+# Other
+Once in your device's shell, you can use the following command to list installed packages by name.
+ - `pm list package | grep '<package name>'`
+
+For example, to list all installed packages with Facebook in their name, you'd type,
+ - `pm list package | grep 'facebook'`
+
+# Samsung
 Running all commands listed in [SamsungCommands.txt](./SamsungCommands.txt) will disable almost all Samsung apps.
 This includes the Galaxy App Store, Samsung Themes, Samsung Dex, Samsung Bixby, Facebook, and more.
 The end result will be a minimalist Samsung phone.
@@ -33,33 +59,6 @@ Running all commands listed in [XiaomiCommands.txt](./XiaomiCommands.txt) will d
 - com.miui.securitycenter
 - com.miui.securityadd
 - com.xiaomi.finddevice
-
-# Instructions
-The following instructions assumes you are familiar with using a command-line interface.
-Further reading on ADB can be found here: https://developer.android.com/studio/command-line/adb#Enabling.
-
-1. (Recommended for stability) Backup, update, and factory reset your phone.
-2. On your phone, enable Android's "Developer Options"
-3. In "Developer Options", turn on "USB Debugging"
-4. On your computer, download [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) for your OS.
-5. Extract [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools) and start a command-prompt/shell session in the extracted folder's directory.
-6. Connect your Android phone to your computer with USB debugging enabled. Verify that adb sees your device and the daemon is running with the following command
-    - `adb devices`
-    - You should see the device name listed as a "device".
-    - At this point your device should prompt you to accept USB debugging from your computer. Tap "Allow". 
-    
-    <img src="./img/adb_devices.PNG"/>
-
-7. Enter your device's shell with the following command
-    - `adb shell`
-8. Once in the device's shell, copy and paste all desired commands from [commands.txt](./commands.txt) to remove the package.
-
-# Other
-Once in your device's shell, you can use the following command to list installed packages by name.
- - `pm list package | grep '<package name>'`
-
-For example, to list all installed packages with Facebook in their name, you'd type,
- - `pm list package | grep 'facebook'`
 
 # Info on Android Package Manager a.k.a. pm
 - https://cheatography.com/citguy/cheat-sheets/android-package-manager-pm/
