@@ -12,9 +12,7 @@ Use at your own risk and read over all commands to make sure you don't take out 
 While these commands cannot harm your device, there may be situations where your phone gets into a crash-loop and the easiest fix is to boot the device into "Recovery Mode" and perform a factory reset.
 Research the procedure to boot into recovery mode for your Samsung phone, it can differ between models. 
 
-
 Running these adb commands is equilivent to using [Package Disabler Pro+ (Play Store Link)](https://play.google.com/store/apps/details?id=com.elmklmsamsung.batteryaddon&hl=en_US), except you're running commands manually so you don't need to give an app device admin permission or pay anything.
-
 
 ## ⚠️ WARNING:⚠️
 1. After running these commands, you will no longer be able to install Profile Isolation (Work Profile) apps such as [Island](https://play.google.com/store/apps/details?id=com.oasisfeng.island&hl=en_US) or [Shelter](https://play.google.com/store/apps/details?id=net.typeblog.shelter&hl=en_US). **Installing Profile Isolation apps after running these commands will put OneUI into a crash-loop.**
@@ -27,6 +25,13 @@ If you want to disable this app, remove the `#` at the corresponding line locate
 > ⚠️ Research each package before running the command to disable it. Some apps have hidden dependencies.
 
 # Xiaomi
+## ⚠️ WARNING:⚠️
+1. Please don’t uninstall apps in a hurry and don’t touch the apps you don’t know about.
+2. Use your own discretion and uninstall apps that you really don’t need.
+3. Also, you must not try to uninstall the following Xiaomi system apps as doing so will result in a soft brick requiring a hard reset.
+- com.miui.securitycenter
+- com.miui.securityadd
+- com.xiaomi.finddevice
 
 # Instructions
 The following instructions assumes you are familiar with using a command-line interface.
