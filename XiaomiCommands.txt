@@ -270,7 +270,7 @@ pm uninstall -k --user 0 com.facebook.services | Facebook
 pm uninstall -k --user 0 com.facebook.system | Facebook
 pm uninstall -k --user 0 pl.zdunex25.updater | Xiaomi.eu
 pm uninstall -k --user 0 ros.ota.updater | RevolutionOS
-pm uninstall -k --user 0 pm uninstall -k --user 0 com.syberia.ota | SyberiaOS
+pm uninstall -k --user 0 com.syberia.ota | SyberiaOS
 pm uninstall -k --user 0 com.syberia.SyberiaPapers | SyberiaOS
 pm uninstall -k --user 0 org.lineageos.recorder | LineageOS
 pm uninstall -k --user 0 org.lineageos.snap | LineageOS
