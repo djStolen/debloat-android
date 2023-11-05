@@ -112,168 +112,167 @@ pm uninstall -k --user 0 com.xiaomi.xmsf
 
 # Source: https://technastic.com/xiaomi-bloatware-list-miui/
 # Android Bloatware on Xiaomi Phones
-com.android.bips | Default Printing Service
-com.android.bookmarkprovider | Bookmark Provider
-com.android.browser | Web Browser
-com.android.calendar | Calendar app
-com.android.cellbroadcastreceiver
-com.android.cellbroadcastreceiver.overlay.common
-com.android.chrome | Chrome Browser
-com.android.deskclock | Stock Clock app
-com.android.dreams.basic | Screensaver app
-com.android.dreams.phototable | Screensaver app
-com.android.egg z| Android Easter Egg
-com.android.emergency | SOS Calling
-com.android.hotwordenrollment.okgoogle | Google Assistant
-com.android.mms | MMS app
-com.android.mms.service | MMS
-com.android.printspooler | Printing service
-com.android.statementservice | Checks APK files
-com.android.stk | SIM Tool-kit
-com.android.thememanager
-com.android.thememanager.module
-com.android.wallpaper.livepicker | Live wallpaper
-com.android.wallpaperbackup | Wallpaper backup feature
-com.android.wallpapercropper | Wallpaper cropping feature
+pm uninstall -k --user 0 com.android.bips | Default Printing Service
+pm uninstall -k --user 0 com.android.bookmarkprovider | Bookmark Provider
+pm uninstall -k --user 0 com.android.browser | Web Browser
+pm uninstall -k --user 0 com.android.calendar | Calendar app
+pm uninstall -k --user 0 com.android.cellbroadcastreceiver
+pm uninstall -k --user 0 com.android.cellbroadcastreceiver.overlay.common
+pm uninstall -k --user 0 com.android.chrome | Chrome Browser
+pm uninstall -k --user 0 com.android.deskclock | Stock Clock app
+pm uninstall -k --user 0 com.android.dreams.basic | Screensaver app
+pm uninstall -k --user 0 com.android.dreams.phototable | Screensaver app
+pm uninstall -k --user 0 com.android.egg z| Android Easter Egg
+pm uninstall -k --user 0 com.android.emergency | SOS Calling
+pm uninstall -k --user 0 com.android.hotwordenrollment.okgoogle | Google Assistant
+pm uninstall -k --user 0 com.android.mms | MMS app
+pm uninstall -k --user 0 com.android.mms.service | MMS
+pm uninstall -k --user 0 com.android.printspooler | Printing service
+pm uninstall -k --user 0 com.android.statementservice | Checks APK files
+pm uninstall -k --user 0 com.android.stk | SIM Tool-kit
+pm uninstall -k --user 0 com.android.thememanager
+pm uninstall -k --user 0 com.android.thememanager.module
+pm uninstall -k --user 0 com.android.wallpaper.livepicker | Live wallpaper
+pm uninstall -k --user 0 com.android.wallpaperbackup | Wallpaper backup feature
+pm uninstall -k --user 0 com.android.wallpapercropper | Wallpaper cropping feature
 
 # Google Bloatware on Xiaomi Phones
-com.google.android.apps.docs | Google Docs
-com.google.android.apps.maps | Google Maps
-com.google.android.apps.photos | Google Photos
-com.google.android.apps.meetings | Google Meet
-com.google.android.apps.wellbeing | Digital Wellbeing
-com.google.android.feedback | Feedback app
-com.google.android.gm | Gmail
-com.google.android.gms | Gmail service
-com.google.android.gms.location.history | Gmail location service
-com.google.android.googlequicksearchbox | Google Quick Search
-com.google.android.inputmethod.latin | Gboard
-com.google.android.marvin.talkback | Talkback feature
-com.google.android.music | Google Play Music
-com.google.android.printservice.recommendation | Mobile Printing
-com.google.android.syncadapters.calendar | Calendar Sync
-com.google.android.tts | Text-to-speech
-com.google.android.videos | Google Play Movies & TV
-com.google.android.youtube | Youtube
-com.google.ar.lens | AR Lens
+pm uninstall -k --user 0 com.google.android.apps.docs | Google Docs
+pm uninstall -k --user 0 com.google.android.apps.maps | Google Maps
+pm uninstall -k --user 0 com.google.android.apps.photos | Google Photos
+pm uninstall -k --user 0 com.google.android.apps.meetings | Google Meet
+pm uninstall -k --user 0 com.google.android.apps.wellbeing | Digital Wellbeing
+pm uninstall -k --user 0 com.google.android.feedback | Feedback app
+pm uninstall -k --user 0 com.google.android.gm | Gmail
+pm uninstall -k --user 0 com.google.android.gms | Gmail service
+pm uninstall -k --user 0 com.google.android.gms.location.history | Gmail location service
+pm uninstall -k --user 0 com.google.android.googlequicksearchbox | Google Quick Search
+pm uninstall -k --user 0 com.google.android.inputmethod.latin | Gboard
+pm uninstall -k --user 0 com.google.android.marvin.talkback | Talkback feature
+pm uninstall -k --user 0 com.google.android.music | Google Play Music
+pm uninstall -k --user 0 com.google.android.printservice.recommendation | Mobile Printing
+pm uninstall -k --user 0 com.google.android.syncadapters.calendar | Calendar Sync
+pm uninstall -k --user 0 com.google.android.tts | Text-to-speech
+pm uninstall -k --user 0 com.google.android.videos | Google Play Movies & TV
+pm uninstall -k --user 0 com.google.android.youtube | Youtube
+pm uninstall -k --user 0 com.google.ar.lens | AR Lens
 
-# MIUI Bloatware
-com.mfashiongallery.emag
-com.mi.android.globalFileexplorer | Mi File Manager
-com.mi.android.globallauncher | Mi Launcher
-com.mi.android.globalpersonalassistant
-com.mi.globalTrendNews
-com.mi.health | Mi Health
-com.mi.webkit.core | Mi Webkit
-com.milink.service
-com.mipay.wallet.id | Mi Wallet
-com.mipay.wallet.in | Mi Wallet (India)
-com.miui.accessibility
-com.miui.analytics | MIUI Analytics (spyware)
-com.miui.android.fashiongallery | Wallpaper Carousel
-com.miui.aod | MIUI Always-on Display
-com.miui.backup | Backup app
-com.miui.bugreport | Bug reporting app
-com.miui.calculator | Mi Calculator
-com.miui.cit
-com.miui.cleanmaster | System Cleaner
-com.miui.cloudbackup | Cloud Backup service
-com.miui.cloudservice | Cloud service
-com.miui.cloudservice.sysbase | Cloud service
-com.miui.compass | MIUI Compass
-com.miui.contentcatcher
-com.miui.enbbs
-com.miui.extraphoto | Camera Bokeh effect
-com.miui.face | MIUI Biometric
-com.miui.fm | MIUI FM
-com.miui.fmservice| MIUI FM Module
-com.miui.freeform | MIUI PiP service
-com.miui.gallery | MIUI Gallery
-com.miui.greenguard
-com.miui.huanji
-com.miui.hybrid | Quick Apps (data mining app)
-com.miui.hybrid.accessory | Quick Apps (data mining app)
-com.miui.micloudsync | Cloud Sync
-com.miui.miservice
-com.miui.mishare.connectivity | Mi Share
-com.miui.misound | Music app & sound enhancer
-com.miui.miwallpaper | Wallpaper app
-com.miui.miwallpaper.earth
-com.miui.miwallpaper.mars
-com.miui.msa.global | MSA or MIUI Ad Services
-com.miui.newmidrive
-com.miui.nextpay
-com.miui.notes | Notes
-com.miui.phrase | Frequent phrases
-com.miui.player | Music Player
-com.miui.qr
-com.miui.screenrecorder | Screen Recorder
-com.miui.smsextra | Text Message features
-com.miui.system | MIUI System Launcher
-com.miui.systemui.carriers.overlay | Carrier name chaging service
-com.miui.touchassistant | Quick Ball feature
-com.miui.translation.kingsoft
-com.miui.userguide | User Guide app
-com.miui.videoplayer | MIUI Video player
-com.miui.virtualsim
-com.miui.vsimcore
-com.miui.weather2 | Weather app
-com.miui.wmsvc
-com.miui.yellowpage | Yellow Page app
-com.miui.zman
+# MIUI Bloatwarepm uninstall -k --user 0 com.mfashiongallery.emag
+pm uninstall -k --user 0 com.mi.android.globalFileexplorer | Mi File Manager
+pm uninstall -k --user 0 com.mi.android.globallauncher | Mi Launcher
+pm uninstall -k --user 0 com.mi.android.globalpersonalassistant
+pm uninstall -k --user 0 com.mi.globalTrendNews
+pm uninstall -k --user 0 com.mi.health | Mi Health
+pm uninstall -k --user 0 com.mi.webkit.core | Mi Webkit
+pm uninstall -k --user 0 com.milink.service
+pm uninstall -k --user 0 com.mipay.wallet.id | Mi Wallet
+pm uninstall -k --user 0 com.mipay.wallet.in | Mi Wallet (India)
+pm uninstall -k --user 0 com.miui.accessibility
+pm uninstall -k --user 0 com.miui.analytics | MIUI Analytics (spyware)
+pm uninstall -k --user 0 com.miui.android.fashiongallery | Wallpaper Carousel
+pm uninstall -k --user 0 com.miui.aod | MIUI Always-on Display
+pm uninstall -k --user 0 com.miui.backup | Backup app
+pm uninstall -k --user 0 com.miui.bugreport | Bug reporting app
+pm uninstall -k --user 0 com.miui.calculator | Mi Calculator
+pm uninstall -k --user 0 com.miui.cit
+pm uninstall -k --user 0 com.miui.cleanmaster | System Cleaner
+pm uninstall -k --user 0 com.miui.cloudbackup | Cloud Backup service
+pm uninstall -k --user 0 com.miui.cloudservice | Cloud service
+pm uninstall -k --user 0 com.miui.cloudservice.sysbase | Cloud service
+pm uninstall -k --user 0 com.miui.compass | MIUI Compass
+pm uninstall -k --user 0 com.miui.contentcatcher
+pm uninstall -k --user 0 com.miui.enbbs
+pm uninstall -k --user 0 com.miui.extraphoto | Camera Bokeh effect
+pm uninstall -k --user 0 com.miui.face | MIUI Biometric
+pm uninstall -k --user 0 com.miui.fm | MIUI FM
+pm uninstall -k --user 0 com.miui.fmservice| MIUI FM Module
+pm uninstall -k --user 0 com.miui.freeform | MIUI PiP service
+pm uninstall -k --user 0 com.miui.gallery | MIUI Gallery
+pm uninstall -k --user 0 com.miui.greenguard
+pm uninstall -k --user 0 com.miui.huanji
+pm uninstall -k --user 0 com.miui.hybrid | Quick Apps (data mining app)
+pm uninstall -k --user 0 com.miui.hybrid.accessory | Quick Apps (data mining app)
+pm uninstall -k --user 0 com.miui.micloudsync | Cloud Sync
+pm uninstall -k --user 0 com.miui.miservice
+pm uninstall -k --user 0 com.miui.mishare.connectivity | Mi Share
+pm uninstall -k --user 0 com.miui.misound | Music app & sound enhancer
+pm uninstall -k --user 0 com.miui.miwallpaper | Wallpaper app
+pm uninstall -k --user 0 com.miui.miwallpaper.earth
+pm uninstall -k --user 0 com.miui.miwallpaper.mars
+pm uninstall -k --user 0 com.miui.msa.global | MSA or MIUI Ad Services
+pm uninstall -k --user 0 com.miui.newmidrive
+pm uninstall -k --user 0 com.miui.nextpay
+pm uninstall -k --user 0 com.miui.notes | Notes
+pm uninstall -k --user 0 com.miui.phrase | Frequent phrases
+pm uninstall -k --user 0 com.miui.player | Music Player
+pm uninstall -k --user 0 com.miui.qr
+pm uninstall -k --user 0 com.miui.screenrecorder | Screen Recorder
+pm uninstall -k --user 0 com.miui.smsextra | Text Message features
+pm uninstall -k --user 0 com.miui.system | MIUI System Launcher
+pm uninstall -k --user 0 com.miui.systemui.carriers.overlay | Carrier name chaging service
+pm uninstall -k --user 0 com.miui.touchassistant | Quick Ball feature
+pm uninstall -k --user 0 com.miui.translation.kingsoft
+pm uninstall -k --user 0 com.miui.userguide | User Guide app
+pm uninstall -k --user 0 com.miui.videoplayer | MIUI Video player
+pm uninstall -k --user 0 com.miui.virtualsim
+pm uninstall -k --user 0 com.miui.vsimcore
+pm uninstall -k --user 0 com.miui.weather2 | Weather app
+pm uninstall -k --user 0 com.miui.wmsvc
+pm uninstall -k --user 0 com.miui.yellowpage | Yellow Page app
+pm uninstall -k --user 0 com.miui.zman
 
 # Xiaomi Bloatware
-com.sohu.inputmethod.sogou.xiaomi
-com.xiaomi.account | Mi Account (sensitive)
-com.xiaomi.calendar | Mi Calendar
-com.xiaomi.cameratools | Camera Tools
-com.xiaomi.channel
-com.xiaomi.discover | Xiaomi System apps updater
-com.xiaomi.glgm | Games
-com.xiaomi.joyose | Junk and safe to remove
-com.xiaomi.location.fused
-com.xiaomi.mi_connect_service
-com.xiaomi.micloud.sdk | Cloud App
-com.xiaomi.midrop | Mi Drop
-com.xiaomi.mipicks | GetApps(Xiaomi app store)
-com.xiaomi.miplay_client
-com.xiaomi.mircs | MIUI to MIUI Message
-com.xiaomi.mirecycle | Mi Security (sensitive)
-com.xiaomi.mirror
-com.xiaomi.misettings | Mi Settings
-com.xiaomi.payment | Mi Pay
-com.xiaomi.scanner | Scanner app
-com.xiaomi.simactivate.service
-com.xiaomi.xmsf | Xiaomi Service Framework
-com.xiaomi.xmsfkeeper | Xiaomi Service Framework
+pm uninstall -k --user 0 com.sohu.inputmethod.sogou.xiaomi
+pm uninstall -k --user 0 com.xiaomi.account | Mi Account (sensitive)
+pm uninstall -k --user 0 com.xiaomi.calendar | Mi Calendar
+pm uninstall -k --user 0 com.xiaomi.cameratools | Camera Tools
+pm uninstall -k --user 0 com.xiaomi.channel
+pm uninstall -k --user 0 com.xiaomi.discover | Xiaomi System apps updater
+pm uninstall -k --user 0 com.xiaomi.glgm | Games
+pm uninstall -k --user 0 com.xiaomi.joyose | Junk and safe to remove
+pm uninstall -k --user 0 com.xiaomi.location.fused
+pm uninstall -k --user 0 com.xiaomi.mi_connect_service
+pm uninstall -k --user 0 com.xiaomi.micloud.sdk | Cloud App
+pm uninstall -k --user 0 com.xiaomi.midrop | Mi Drop
+pm uninstall -k --user 0 com.xiaomi.mipicks | GetApps(Xiaomi app store)
+pm uninstall -k --user 0 com.xiaomi.miplay_client
+pm uninstall -k --user 0 com.xiaomi.mircs | MIUI to MIUI Message
+pm uninstall -k --user 0 com.xiaomi.mirecycle | Mi Security (sensitive)
+pm uninstall -k --user 0 com.xiaomi.mirror
+pm uninstall -k --user 0 com.xiaomi.misettings | Mi Settings
+pm uninstall -k --user 0 com.xiaomi.payment | Mi Pay
+pm uninstall -k --user 0 com.xiaomi.scanner | Scanner app
+pm uninstall -k --user 0 com.xiaomi.simactivate.service
+pm uninstall -k --user 0 com.xiaomi.xmsf | Xiaomi Service Framework
+pm uninstall -k --user 0 com.xiaomi.xmsfkeeper | Xiaomi Service Framework
 
 # Amazon, Netflix, Opera & Facebook Bloatware
-cn.wps.xiaomi.abroad.lite
-com.autonavi.minimap
-com.caf.fmradio
-com.duokan.phone.remotecontroller
-com.samsung.aasaservice
-org.simalliance.openmobileapi.service
-com.duokan.phone.remotecontroller.peel.plugin
-in.amazon.mShop.android.shopping | Amazon India
-com.bsp.catchlog
-com.netflix.partner.activation | Netflix
-com.netflix.mediaclient | Netflix
-com.opera.app.news | Opera
-com.opera.branding | Opera
-com.opera.branding.news | Opera News
-com.opera.mini.native | Opera Mini
-com.opera.preinstall | Opera
-com.tencent.soter.soterserver | Chinese Payment service
-com.facebook.katana | Facebook
-com.facebook.appmanager | Facebook
-com.facebook.services | Facebook
-com.facebook.system | Facebook
-pl.zdunex25.updater | Xiaomi.eu
-ros.ota.updater | RevolutionOS
-com.syberia.ota | SyberiaOS
-com.syberia.SyberiaPapers | SyberiaOS
-org.lineageos.recorder | LineageOS
-org.lineageos.snap | LineageOS
-com.hampusolsson.abstruct | Paranoid Android
-code.name.monkey.retromusic | Paranoid Android
+pm uninstall -k --user 0 cn.wps.xiaomi.abroad.lite
+pm uninstall -k --user 0 com.autonavi.minimap
+pm uninstall -k --user 0 com.caf.fmradio
+pm uninstall -k --user 0 com.duokan.phone.remotecontroller
+pm uninstall -k --user 0 com.samsung.aasaservice
+pm uninstall -k --user 0 org.simalliance.openmobileapi.service
+pm uninstall -k --user 0 com.duokan.phone.remotecontroller.peel.plugin
+pm uninstall -k --user 0 in.amazon.mShop.android.shopping | Amazon India
+pm uninstall -k --user 0 com.bsp.catchlog
+pm uninstall -k --user 0 com.netflix.partner.activation | Netflix
+pm uninstall -k --user 0 com.netflix.mediaclient | Netflix
+pm uninstall -k --user 0 com.opera.app.news | Opera
+pm uninstall -k --user 0 com.opera.branding | Opera
+pm uninstall -k --user 0 com.opera.branding.news | Opera News
+pm uninstall -k --user 0 com.opera.mini.native | Opera Mini
+pm uninstall -k --user 0 com.opera.preinstall | Opera
+pm uninstall -k --user 0 com.tencent.soter.soterserver | Chinese Payment service
+pm uninstall -k --user 0 com.facebook.katana | Facebook
+pm uninstall -k --user 0 com.facebook.appmanager | Facebook
+pm uninstall -k --user 0 com.facebook.services | Facebook
+pm uninstall -k --user 0 com.facebook.system | Facebook
+pm uninstall -k --user 0 pl.zdunex25.updater | Xiaomi.eu
+pm uninstall -k --user 0 ros.ota.updater | RevolutionOS
+pm uninstall -k --user 0 pm uninstall -k --user 0 com.syberia.ota | SyberiaOS
+pm uninstall -k --user 0 com.syberia.SyberiaPapers | SyberiaOS
+pm uninstall -k --user 0 org.lineageos.recorder | LineageOS
+pm uninstall -k --user 0 org.lineageos.snap | LineageOS
+pm uninstall -k --user 0 com.hampusolsson.abstruct | Paranoid Android
+pm uninstall -k --user 0 code.name.monkey.retromusic | Paranoid Android
